@@ -54,6 +54,7 @@ class _FavoritesPageState extends State<FavoritesPage> {
         centerTitle: true,
         backgroundColor: Colors.red,
         foregroundColor: Colors.white,
+         automaticallyImplyLeading: false,
       ),
       body: favoriteIds.isEmpty
           ? const Center(child: Text('No favorites added yet!'))
